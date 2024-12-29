@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Swoham</h1>
 <h3 align="center">Computer Science Student</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=swohamkayastha&label=Profile%20views&color=0e75b6&style=flat" alt="swohamkayastha" /> </p>
-
 <p align="left"> <a href="https://twitter.com/swohamkayastha" target="blank"><img src="https://img.shields.io/twitter/follow/swohamkayastha?logo=twitter&style=for-the-badge" alt="swohamkayastha" /></a> </p>
 
 - 🔭 I’m currently working on [PitchReserve](https://github.com/SwohamKayastha/PitchReserve)
