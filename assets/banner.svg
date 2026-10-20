@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
+  <title id="title">Swoham Kayastha — AI Engineer · Agentic Systems · LLM Harnesses</title>
+  <desc id="desc">Night scene in Nepal: the Nyatapol pagoda, a Swayambhunath-style stupa with Buddha eyes, a hillside gompa, grazing yaks, and prayer flags strung from the temples toward snow-capped Sagarmatha under a crescent moon.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1026"/>
+      <stop offset="0.55" stop-color="#2B1740"/>
+      <stop offset="1" stop-color="#7A1E2A"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6D77A"/>
+      <stop offset="1" stop-color="#C9962B"/>
+    </linearGradient>
+    <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7A1E2A" stop-opacity="0"/>
+      <stop offset="1" stop-color="#7A1E2A" stop-opacity=".45"/>
+    </linearGradient>
+    <linearGradient id="dome" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E0D3B8"/>
+      <stop offset=".6" stop-color="#C9BB9E"/>
+      <stop offset="1" stop-color="#857861"/>
+    </linearGradient>
+    <style>
+      .star { fill: #F4E9D8; animation: twinkle 3s ease-in-out infinite; }
+      .s2 { animation-delay: 1s; } .s3 { animation-delay: 2s; }
+      @keyframes twinkle { 0%,100% { opacity: .25 } 50% { opacity: 1 } }
+      .flag { transform-box: fill-box; transform-origin: top center; animation: sway 2.8s ease-in-out infinite; }
+      .f2 { animation-delay: .4s; } .f3 { animation-delay: .8s; }
+      @keyframes sway { 0%,100% { transform: rotate(-5deg) } 50% { transform: rotate(5deg) } }
+      .lamp { animation: glow 2.4s ease-in-out infinite; }
+      @keyframes glow { 0%,100% { opacity: .55 } 50% { opacity: 1 } }
+      .graze { transform-box: fill-box; transform-origin: 0% 50%; animation: graze 6s ease-in-out infinite; }
+      .graze.d2 { animation-delay: 2.5s; }
+      @keyframes graze { 0%,55%,100% { transform: rotate(0deg) } 70%,85% { transform: rotate(14deg) } }
+      .tail { transform-box: fill-box; transform-origin: 100% 0%; animation: swish 3.2s ease-in-out infinite; }
+      .tail.d2 { animation-delay: 1.3s; }
+      @keyframes swish { 0%,100% { transform: rotate(-8deg) } 50% { transform: rotate(8deg) } }
+      .cord { fill: none; stroke: #F4E9D8; stroke-width: 1; opacity: .6; }
+      .ink { fill: none; stroke: #1B1E3F; stroke-linecap: round; }
+      @media (prefers-reduced-motion: reduce) {
+        .star, .flag, .lamp, .graze, .tail { animation: none; }
+        .star { opacity: .7; }
+      }
+    </style>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1200" height="400" fill="url(#sky)"/>
+  <circle cx="1110" cy="70" r="26" fill="#F5E6C8" opacity=".9"/>
+  <circle cx="1100" cy="64" r="26" fill="#0E1229"/>
+
+  <!-- Stars -->
+  <circle class="star" cx="60" cy="40" r="1.6"/>
+  <circle class="star s2" cx="140" cy="90" r="1.2"/>
+  <circle class="star s3" cx="330" cy="50" r="1.5"/>
+  <circle class="star" cx="410" cy="120" r="1"/>
+  <circle class="star s2" cx="520" cy="30" r="1.4"/>
+  <circle class="star s3" cx="690" cy="160" r="1"/>
+  <circle class="star" cx="760" cy="25" r="1.6"/>
+  <circle class="star s2" cx="850" cy="150" r="1.1"/>
+  <circle class="star s3" cx="930" cy="40" r="1.3"/>
+  <circle class="star" cx="1010" cy="20" r="1"/>
+  <circle class="star s2" cx="1170" cy="140" r="1.4"/>
+  <circle class="star s3" cx="25" cy="160" r="1.2"/>
+
+  <!-- Himalaya, back range -->
+  <polygon fill="#2A2F55" points="0,330 120,285 260,300 380,235 470,270 560,205 650,250 760,175 860,225 1010,95 1080,170 1120,165 1200,210 1200,400 0,400"/>
+  <!-- Snow caps -->
+  <polygon fill="#F4F1E8" points="1010,95 980,140 994,133 1004,148 1018,131 1042,144"/>
+  <polygon fill="#F4F1E8" opacity=".9" points="760,175 742,200 752,195 762,205 772,193 784,203"/>
+  <polygon fill="#F4F1E8" opacity=".85" points="560,205 545,227 556,221 566,231 579,223"/>
+  <polygon fill="#F4F1E8" opacity=".7" points="380,235 368,252 377,248 384,256 394,247"/>
+  <polygon fill="#F4F1E8" opacity=".6" points="1120,165 1108,178 1117,176 1124,183 1134,174"/>
+  <text x="1010" y="82" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#F4E9D8" opacity=".75" letter-spacing="2">SAGARMATHA</text>
+  <!-- Cairn on Sagarmatha's shoulder (prayer-flag anchor) -->
+  <g fill="#8A8299">
+    <ellipse cx="1058" cy="149" rx="6" ry="2.5"/><ellipse cx="1058" cy="145.5" rx="4.5" ry="2"/><ellipse cx="1058" cy="142.5" rx="3" ry="1.6"/>
+  </g>
+  <rect x="1057.2" y="130" width="1.6" height="12" fill="#C9962B"/>
+
+  <!-- Horizon haze ties sky and land together -->
+  <rect x="0" y="240" width="1200" height="125" fill="url(#haze)"/>
+
+  <!-- Gompa hill -->
+  <path d="M660,362 C720,345 760,312 800,302 L905,300 C950,306 1010,340 1100,362 Z" fill="#1A1432"/>
+  <path d="M965,352 L930,334 L944,322 L900,304" fill="none" stroke="#F4E9D8" stroke-width="1" stroke-dasharray="2 3" opacity=".3"/>
+
+  <!-- Ground: one shared horizon -->
+  <path d="M0,362 C120,356 260,357 360,358 S560,355 660,357 S900,361 1000,356 S1140,357 1200,359 L1200,400 L0,400 Z" fill="#120A1A"/>
+
+  <!-- Gompa (Tibetan monastery) -->
+  <g>
+    <polygon points="806,301 894,301 889,264 811,264" fill="#D9CCB2"/>
+    <polygon points="889,264 894,301 880,301 877,264" fill="#000" opacity=".12"/>
+    <rect x="810" y="256" width="80" height="8" fill="#6B1E1E"/>
+    <g fill="#D4A84B"><circle cx="820" cy="260" r="1.2"/><circle cx="835" cy="260" r="1.2"/><circle cx="850" cy="260" r="1.2"/><circle cx="865" cy="260" r="1.2"/><circle cx="880" cy="260" r="1.2"/></g>
+    <rect x="808" y="253" width="84" height="3" fill="#3B2416"/>
+    <rect x="808" y="245" width="5" height="8" fill="url(#gold)"/>
+    <rect x="887" y="245" width="5" height="8" fill="url(#gold)"/>
+    <polygon points="834,253 866,253 864,236 836,236" fill="#D9CCB2"/>
+    <rect x="835" y="230" width="30" height="6" fill="#6B1E1E"/>
+    <polygon points="830,230 870,230 862,222 838,222" fill="url(#gold)"/>
+    <circle cx="850" cy="217" r="3.2" fill="none" stroke="#D4A84B" stroke-width="1.4"/>
+    <g stroke="#1E100A" stroke-width="2">
+      <polygon class="lamp" points="821,276 831,276 830,288 822,288" fill="#F6D77A"/>
+      <polygon class="lamp" points="869,276 879,276 878,288 870,288" fill="#F6D77A"/>
+      <polygon class="lamp" points="845,240 855,240 854,249 846,249" fill="#F6D77A"/>
+    </g>
+    <rect x="844" y="285" width="12" height="16" fill="#6B1E1E" stroke="#D4A84B" stroke-width="1"/>
+  </g>
+
+  <!-- Nyatapol: five-tier plinth -->
+  <g fill="#4A2A1C" stroke="#1E100A" stroke-width="1">
+    <rect x="120" y="344" width="220" height="16"/>
+    <rect x="135" y="328" width="190" height="16"/>
+    <rect x="150" y="312" width="160" height="16"/>
+    <rect x="165" y="296" width="130" height="16"/>
+    <rect x="180" y="280" width="100" height="16"/>
+  </g>
+  <rect x="216" y="280" width="28" height="80" fill="#2B170F"/>
+  <!-- Stair guardians: five pairs -->
+  <g fill="#C9962B">
+    <rect x="206" y="337" width="6" height="7"/><rect x="248" y="337" width="6" height="7"/>
+    <rect x="206" y="321" width="6" height="7"/><rect x="248" y="321" width="6" height="7"/>
+    <rect x="206" y="305" width="6" height="7"/><rect x="248" y="305" width="6" height="7"/>
+    <rect x="206" y="289" width="6" height="7"/><rect x="248" y="289" width="6" height="7"/>
+    <rect x="206" y="273" width="6" height="7"/><rect x="248" y="273" width="6" height="7"/>
+  </g>
+  <!-- Nyatapol: five-tier pagoda -->
+  <rect x="195" y="250" width="70" height="30" fill="#3B2416"/>
+  <rect class="lamp" x="225" y="258" width="10" height="16" fill="#F6D77A"/>
+  <g fill="#6B1E1E" stroke="url(#gold)" stroke-width="2">
+    <polygon points="165,252 295,252 268,236 192,236"/>
+    <rect x="202" y="222" width="56" height="14" fill="#3B2416" stroke="none"/>
+    <polygon points="177,224 283,224 260,210 200,210"/>
+    <rect x="208" y="198" width="44" height="12" fill="#3B2416" stroke="none"/>
+    <polygon points="187,200 273,200 254,188 206,188"/>
+    <rect x="213" y="178" width="34" height="10" fill="#3B2416" stroke="none"/>
+    <polygon points="196,180 264,180 248,170 212,170"/>
+    <rect x="217" y="162" width="26" height="8" fill="#3B2416" stroke="none"/>
+    <polygon points="204,164 256,164 242,152 218,152"/>
+  </g>
+  <!-- Gajur (golden finial) -->
+  <g fill="url(#gold)">
+    <rect x="228" y="134" width="4" height="18"/>
+    <ellipse cx="230" cy="142" rx="8" ry="3"/>
+    <circle cx="230" cy="130" r="5"/>
+  </g>
+
+  <!-- Swayambhu-style stupa -->
+  <g>
+    <rect x="504" y="342" width="192" height="17" fill="#9C8F78"/>
+    <rect x="522" y="326" width="156" height="16" fill="#B5A88E"/>
+    <path d="M536,326 A64,64 0 0 1 664,326 Z" fill="url(#dome)"/>
+    <g class="lamp" fill="#F6D77A">
+      <circle cx="530" cy="338" r="2"/><circle cx="556" cy="338" r="2"/><circle cx="644" cy="338" r="2"/><circle cx="670" cy="338" r="2"/>
+    </g>
+    <rect x="584" y="255" width="32" height="8" fill="url(#gold)"/>
+    <rect x="578" y="229" width="44" height="26" fill="#E2D6BC" stroke="#C9962B" stroke-width="1.5"/>
+    <!-- Buddha eyes -->
+    <path class="ink" stroke-width="1.6" d="M582,238 Q589,233 596,238 M604,238 Q611,233 618,238"/>
+    <path d="M582,244 Q589,239 596,244 Q589,247 582,244 Z M604,244 Q611,239 618,244 Q611,247 604,244 Z" fill="#FFF8E7" stroke="#1B1E3F" stroke-width="1.2"/>
+    <circle cx="590" cy="243.3" r="1.9" fill="#1B1E3F"/><circle cx="610" cy="243.3" r="1.9" fill="#1B1E3F"/>
+    <path class="ink" stroke-width="1.4" d="M601,242 q3,3 0,6 q-2,2 1,5"/>
+    <circle cx="600" cy="236" r="1.5" fill="#C0392B"/>
+    <rect x="574" y="223" width="52" height="6" fill="url(#gold)"/>
+    <!-- Thirteen-ring spire -->
+    <polygon points="583,223 617,223 604,190 596,190" fill="url(#gold)"/>
+    <path d="M585,218 H615 M587,213 H613 M589,208 H611 M591,203 H609 M593,198 H607 M595,194 H605" stroke="#8A5A10" stroke-width="1" opacity=".7"/>
+    <polygon points="588,190 612,190 606,183 594,183" fill="url(#gold)"/>
+    <rect x="599" y="174" width="2" height="9" fill="url(#gold)"/>
+    <circle cx="600" cy="173" r="3.5" fill="url(#gold)"/>
+  </g>
+
+  <!-- Prayer flags: Nyatapol -> stupa -> gompa -> Sagarmatha -->
+  <g>
+    <path d="M232,140 Q420,254 598,186" class="cord"/>
+    <rect class="flag" x="269.0" y="164.7" width="16" height="20" fill="#2E6BD1"/>
+    <rect class="flag f2" x="304.4" y="180.6" width="16" height="20" fill="#F4F1E8"/>
+    <rect class="flag f3" x="339.6" y="193.2" width="16" height="20" fill="#C0392B"/>
+    <rect class="flag" x="374.6" y="202.5" width="16" height="20" fill="#2E8B57"/>
+    <rect class="flag f2" x="409.5" y="208.5" width="16" height="20" fill="#E8B923"/>
+    <rect class="flag f3" x="444.2" y="211.2" width="16" height="20" fill="#2E6BD1"/>
+    <rect class="flag" x="478.7" y="210.7" width="16" height="20" fill="#F4F1E8"/>
+    <rect class="flag f2" x="513.0" y="206.8" width="16" height="20" fill="#C0392B"/>
+    <rect class="flag f3" x="547.1" y="199.7" width="16" height="20" fill="#2E8B57"/>
+    <path d="M602,186 Q735,262 848,216" class="cord"/>
+    <rect class="flag" x="626.1" y="202.5" width="15" height="18" fill="#C0392B"/>
+    <rect class="flag f2" x="658.9" y="216.1" width="15" height="18" fill="#2E8B57"/>
+    <rect class="flag f3" x="691.0" y="225.7" width="15" height="18" fill="#E8B923"/>
+    <rect class="flag" x="722.5" y="231.5" width="15" height="18" fill="#2E6BD1"/>
+    <rect class="flag f2" x="753.3" y="233.3" width="15" height="18" fill="#F4F1E8"/>
+    <rect class="flag f3" x="783.5" y="231.3" width="15" height="18" fill="#C0392B"/>
+    <rect class="flag" x="813.1" y="225.3" width="15" height="18" fill="#2E8B57"/>
+    <path d="M852,216 Q965,236 1057,131" class="cord"/>
+    <rect class="flag" x="872.3" y="219.0" width="13" height="16" fill="#E8B923"/>
+    <rect class="flag f2" x="905.4" y="217.6" width="13" height="16" fill="#2E6BD1"/>
+    <rect class="flag f3" x="937.5" y="210.5" width="13" height="16" fill="#F4F1E8"/>
+    <rect class="flag" x="968.7" y="197.6" width="13" height="16" fill="#C0392B"/>
+    <rect class="flag f2" x="998.9" y="178.9" width="13" height="16" fill="#2E8B57"/>
+    <rect class="flag f3" x="1028.1" y="154.4" width="13" height="16" fill="#E8B923"/>
+  </g>
+  <!-- Stupa fan strings to the ground -->
+  <g>
+    <path d="M598,190 Q540,268 512,342" class="cord"/>
+    <rect class="flag" x="547.4" y="259.4" width="9" height="11" fill="#2E6BD1"/>
+    <rect class="flag f2" x="530.8" y="289.7" width="9" height="11" fill="#F4F1E8"/>
+    <rect class="flag f3" x="516.6" y="319.7" width="9" height="11" fill="#C0392B"/>
+    <path d="M602,190 Q660,268 688,342" class="cord"/>
+    <rect class="flag" x="643.6" y="259.4" width="9" height="11" fill="#F4F1E8"/>
+    <rect class="flag f2" x="660.2" y="289.7" width="9" height="11" fill="#C0392B"/>
+    <rect class="flag f3" x="674.4" y="319.7" width="9" height="11" fill="#2E8B57"/>
+  </g>
+
+  <!-- Yaks -->
+  <g transform="translate(732,364) scale(1.35,1.35) translate(-732,-364)"><g class="tail"><path d="M713,340 q-5,6 -3,14" stroke="#9C8F7A" stroke-width="2.5" fill="none" stroke-linecap="round"/><ellipse cx="710" cy="355" rx="2.6" ry="4" fill="#BFB29C"/></g><g fill="#9C8F7A"><rect x="718" y="352" width="3.5" height="12"/><rect x="724" y="352" width="3.5" height="12"/><rect x="739" y="352" width="3.5" height="12"/><rect x="745" y="352" width="3.5" height="12"/></g><ellipse cx="732" cy="344" rx="20" ry="10" fill="#D8CDB8"/><ellipse cx="741" cy="337" rx="10" ry="6" fill="#D8CDB8"/><path d="M713,347 L715,356 L719,351 L723,357 L727,351 L731,357 L735,351 L739,357 L743,351 L747,357 L751,348 Z" fill="#BFB29C"/><g class="graze"><ellipse cx="756" cy="345" rx="7" ry="5.5" fill="#D8CDB8"/><ellipse cx="761" cy="347" rx="3" ry="2.6" fill="#9C8F7A"/><path d="M753,341 q-5,-3 -3,-9 M759,341 q5,-3 3,-9" stroke="#F4E9D8" stroke-width="1.8" fill="none" stroke-linecap="round"/></g></g>
+  <g transform="translate(820,368) scale(1.35,1.35) translate(-820,-368)"><g class="tail d2"><path d="M801,344 q-5,6 -3,14" stroke="#3E2A1F" stroke-width="2.5" fill="none" stroke-linecap="round"/><ellipse cx="798" cy="359" rx="2.6" ry="4" fill="#5A3E2E"/></g><g fill="#3E2A1F"><rect x="806" y="356" width="3.5" height="12"/><rect x="812" y="356" width="3.5" height="12"/><rect x="827" y="356" width="3.5" height="12"/><rect x="833" y="356" width="3.5" height="12"/></g><ellipse cx="820" cy="348" rx="20" ry="10" fill="#7A5640"/><ellipse cx="829" cy="341" rx="10" ry="6" fill="#7A5640"/><path d="M801,351 L803,360 L807,355 L811,361 L815,355 L819,361 L823,355 L827,361 L831,355 L835,361 L839,352 Z" fill="#5A3E2E"/><rect x="812" y="337" width="16" height="10" rx="1.5" fill="#8B1E1E" stroke="#D4A84B" stroke-width="1.2"/><g class="graze d2"><ellipse cx="844" cy="349" rx="7" ry="5.5" fill="#7A5640"/><ellipse cx="849" cy="351" rx="3" ry="2.6" fill="#3E2A1F"/><path d="M841,345 q-5,-3 -3,-9 M847,345 q5,-3 3,-9" stroke="#F4E9D8" stroke-width="1.8" fill="none" stroke-linecap="round"/></g></g>
+
+  <!-- Title -->
+  <text x="600" y="95" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="bold" fill="url(#gold)" letter-spacing="4">SWOHAM KAYASTHA</text>
+  <text x="600" y="135" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#F4E9D8" letter-spacing="1.5">AI Engineer · Agentic Systems · LLM Harnesses</text>
+</svg>

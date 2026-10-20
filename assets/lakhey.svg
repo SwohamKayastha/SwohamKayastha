@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" role="img" aria-label="Stylized Lakhey mask">
+  <style>
+    .mane { transform-origin: 110px 115px; animation: spin 24s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg) } }
+    .pupil { animation: look 5s ease-in-out infinite; }
+    @keyframes look { 0%,40%,100% { transform: translateX(0) } 50%,80% { transform: translateX(4px) } }
+  </style>
+
+  <!-- Mane -->
+  <circle cx="110" cy="115" r="96" fill="#5A0C0C"/>
+  <circle class="mane" cx="110" cy="115" r="88" fill="none" stroke="#C0392B" stroke-width="22" stroke-dasharray="7 7"/>
+
+  <!-- Face -->
+  <ellipse cx="110" cy="118" rx="62" ry="68" fill="#D7261E"/>
+
+  <!-- Crown -->
+  <polygon points="58,74 162,74 152,52 132,63 110,38 88,63 68,52" fill="#E8B923" stroke="#8A5A10" stroke-width="2"/>
+  <circle cx="110" cy="58" r="6" fill="#2E6BD1"/>
+
+  <!-- Brows -->
+  <path d="M66,92 Q84,78 100,94" fill="none" stroke="#1A0505" stroke-width="7" stroke-linecap="round"/>
+  <path d="M120,94 Q136,78 154,92" fill="none" stroke="#1A0505" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <circle cx="85" cy="108" r="16" fill="#FFF8E7" stroke="#E8B923" stroke-width="3"/>
+  <circle cx="135" cy="108" r="16" fill="#FFF8E7" stroke="#E8B923" stroke-width="3"/>
+  <circle class="pupil" cx="85" cy="108" r="7" fill="#111"/>
+  <circle class="pupil" cx="135" cy="108" r="7" fill="#111"/>
+
+  <!-- Nose -->
+  <ellipse cx="110" cy="132" rx="11" ry="8" fill="#9E1712"/>
+
+  <!-- Mouth and fangs -->
+  <path d="M70,148 Q110,196 150,148 Z" fill="#3A0A0A"/>
+  <rect x="92" y="148" width="36" height="7" fill="#FFF8E7"/>
+  <polygon points="76,148 86,148 81,172" fill="#FFF8E7"/>
+  <polygon points="134,148 144,148 139,172" fill="#FFF8E7"/>
+
+  <!-- Earrings -->
+  <circle cx="46" cy="130" r="9" fill="none" stroke="#E8B923" stroke-width="4"/>
+  <circle cx="174" cy="130" r="9" fill="none" stroke="#E8B923" stroke-width="4"/>
+</svg>

@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
+  <title id="title">Climbing Sagarmatha: What I'm Learning</title>
+  <desc id="desc">A trail climbs Sagarmatha. Base Camp: Python, PyTorch, LangGraph, FastAPI. Camp I: RAG with vector databases. Camp II: MCP and tool-calling agents. Camp III: Cloud deployment and CI/CD for ML. Camp IV: LLM observability and tracing. Summit: Production agent platforms.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#12122A"/>
+      <stop offset="0.6" stop-color="#2B1740"/>
+      <stop offset="1" stop-color="#5A1F2E"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6D77A"/>
+      <stop offset="1" stop-color="#C9962B"/>
+    </linearGradient>
+    <clipPath id="peak"><polygon points="30,392 300,55 570,392"/></clipPath>
+    <style>
+      .star { fill: #F2E8D0; animation: twinkle 3s ease-in-out infinite; }
+      .s2 { animation-delay: 1s; } .s3 { animation-delay: 2s; }
+      @keyframes twinkle { 0%,100% { opacity: .25 } 50% { opacity: 1 } }
+      .flag { transform-box: fill-box; transform-origin: top center; animation: sway 2.8s ease-in-out infinite; }
+      .f2 { animation-delay: .4s; } .f3 { animation-delay: .8s; }
+      @keyframes sway { 0%,100% { transform: rotate(-5deg) } 50% { transform: rotate(5deg) } }
+      .lamp { animation: glow 2.4s ease-in-out infinite; }
+      @keyframes glow { 0%,100% { opacity: .55 } 50% { opacity: 1 } }
+      .trail { fill: none; stroke: #D4A84B; stroke-width: 2.2; stroke-linecap: round; stroke-dasharray: 5 6; animation: march 1.6s linear infinite; }
+      @keyframes march { to { stroke-dashoffset: -22; } }
+      .pennant { transform-box: fill-box; transform-origin: 0% 50%; animation: wave 2.8s ease-in-out infinite; }
+      @keyframes wave { 0%,100% { transform: scaleX(1) skewY(0deg) } 50% { transform: scaleX(.85) skewY(6deg) } }
+      .cord { fill: none; stroke: #F2E8D0; stroke-width: 1; opacity: .6; }
+      .leader { fill: none; stroke: #D4A84B; stroke-width: 1; stroke-dasharray: 1 4; stroke-linecap: round; opacity: .55; }
+      .name { font: 700 16px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #F2E8D0; letter-spacing: .5px; }
+      .name.gold { fill: #E8C468; }
+      .desc { font: 400 14px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #D9CBB0; }
+      @media (prefers-reduced-motion: reduce) {
+        .star, .flag, .lamp, .trail, .pennant { animation: none; }
+        .star { opacity: .7; }
+      }
+    </style>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="900" height="420" fill="url(#sky)"/>
+  <circle cx="850" cy="52" r="20" fill="#F5E6C8" opacity=".9"/>
+  <circle cx="842" cy="47" r="20" fill="#13132C"/>
+  <circle class="star" cx="60" cy="40" r="1.5"/>
+  <circle class="star s2" cx="150" cy="95" r="1.1"/>
+  <circle class="star s3" cx="460" cy="36" r="1.4"/>
+  <circle class="star" cx="520" cy="120" r="1"/>
+  <circle class="star s2" cx="760" cy="28" r="1.3"/>
+  <circle class="star s3" cx="40" cy="170" r="1.1"/>
+
+  <!-- Distant ranges (slate) -->
+  <polygon fill="#3A4270" opacity=".75" points="0,300 70,215 120,250 175,190 230,260 230,420 0,420"/>
+  <polygon fill="#3A4270" opacity=".75" points="470,420 560,330 620,355 700,300 780,345 840,315 900,335 900,420"/>
+
+  <!-- Sagarmatha: two-tone faces -->
+  <polygon fill="#2A2F55" points="30,392 300,55 570,392"/>
+  <polygon fill="#363C6B" points="30,392 300,55 236,392"/>
+  <!-- Snow cap -->
+  <polygon fill="#F4F1E8" points="300,55 272,90 284,85 292,99 302,86 314,97 327,78"/>
+  <!-- Mist -->
+  <g fill="#F2E8D0" opacity=".1" clip-path="url(#peak)"><ellipse cx="190" cy="236" rx="120" ry="7"/><ellipse cx="420" cy="292" rx="110" ry="6"/></g>
+
+  <!-- Ground -->
+  <path d="M0,392 C150,384 330,388 470,386 S760,384 900,390 L900,420 L0,420 Z" fill="#120A1A"/>
+
+  <!-- Prayer flags strung from Camp II up to Camp IV -->
+  <g>
+    <path d="M214,254 Q196,196 254,142" class="cord"/>
+    <rect class="flag" x="206.3" y="236.7" width="8" height="10" fill="#2E6BD1"/>
+    <rect class="flag f2" x="206.3" y="216.7" width="8" height="10" fill="#F4F1E8"/>
+    <rect class="flag f3" x="211.0" y="197.0" width="8" height="10" fill="#C0392B"/>
+    <rect class="flag" x="220.3" y="177.5" width="8" height="10" fill="#2E8B57"/>
+    <rect class="flag f2" x="234.3" y="158.3" width="8" height="10" fill="#E8B923"/>
+  </g>
+
+  <!-- Trail -->
+  <path class="trail" d="M170,372 Q261,355 352,318 Q283,300 214,262 Q277,244 340,206 Q297,188 254,150 Q277,116 300,62"/>
+
+  <!-- Base Camp stupa -->
+  <g>
+    <rect x="86" y="376" width="52" height="10" fill="#9C8F78"/>
+    <path d="M94,376 A18,18 0 0 1 130,376 Z" fill="#D3C6AB"/>
+    <rect x="104" y="350" width="16" height="10" fill="#E2D6BC" stroke="#C9962B" stroke-width="1"/>
+    <circle cx="108.5" cy="355" r="1.2" fill="#1B1E3F"/><circle cx="115.5" cy="355" r="1.2" fill="#1B1E3F"/>
+    <rect x="101" y="347" width="22" height="3" fill="url(#gold)"/>
+    <polygon points="105,347 119,347 114,332 110,332" fill="url(#gold)"/>
+    <circle cx="112" cy="329" r="2.2" fill="url(#gold)"/>
+    <circle class="lamp" cx="92" cy="383" r="1.6" fill="#F6D77A"/>
+    <circle class="lamp" cx="132" cy="383" r="1.6" fill="#F6D77A"/>
+  </g>
+
+  <!-- Camps -->
+  <g transform="translate(170,372) scale(1.3)"><polygon points="-9,5 9,5 0,-10" fill="#8B1E1E" stroke="#D4A84B" stroke-width="1.2" stroke-linejoin="round"/><polygon points="-2.5,5 2.5,5 0,-2" fill="#1B1030"/></g>
+  <g transform="translate(352,318) scale(1.0)"><polygon points="-9,5 9,5 0,-10" fill="#8B1E1E" stroke="#D4A84B" stroke-width="1.2" stroke-linejoin="round"/><polygon points="-2.5,5 2.5,5 0,-2" fill="#1B1030"/></g>
+  <g transform="translate(214,262) scale(1.0)"><polygon points="-9,5 9,5 0,-10" fill="#8B1E1E" stroke="#D4A84B" stroke-width="1.2" stroke-linejoin="round"/><polygon points="-2.5,5 2.5,5 0,-2" fill="#1B1030"/></g>
+  <g transform="translate(340,206) scale(1.0)"><polygon points="-9,5 9,5 0,-10" fill="#8B1E1E" stroke="#D4A84B" stroke-width="1.2" stroke-linejoin="round"/><polygon points="-2.5,5 2.5,5 0,-2" fill="#1B1030"/></g>
+  <g transform="translate(254,150) scale(1.0)"><polygon points="-9,5 9,5 0,-10" fill="#8B1E1E" stroke="#D4A84B" stroke-width="1.2" stroke-linejoin="round"/><polygon points="-2.5,5 2.5,5 0,-2" fill="#1B1030"/></g>
+
+  <!-- Summit marker -->
+  <g>
+    <circle class="lamp" cx="300" cy="62" r="7" fill="#F6D77A" opacity=".35"/>
+    <rect x="299" y="30" width="2" height="34" fill="url(#gold)"/>
+    <polygon class="pennant" points="301,31 322,37 301,44" fill="#C0392B" stroke="#D4A84B" stroke-width="1"/>
+    <text x="300" y="20" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#F4E9D8" opacity=".8" letter-spacing="2">SAGARMATHA · 8,849 m</text>
+  </g>
+
+  <!-- Labels -->
+  <path class="leader" d="M183,369 H580"/>
+  <text class="name" x="590" y="371">Base Camp</text>
+  <text class="desc" x="590" y="387">Python · PyTorch · LangGraph · FastAPI</text>
+  <path class="leader" d="M365,315 H580"/>
+  <text class="name" x="590" y="317">Camp I</text>
+  <text class="desc" x="590" y="333">RAG with vector databases</text>
+  <path class="leader" d="M227,259 H580"/>
+  <text class="name" x="590" y="261">Camp II</text>
+  <text class="desc" x="590" y="277">MCP &amp; tool-calling agents</text>
+  <path class="leader" d="M353,203 H580"/>
+  <text class="name" x="590" y="205">Camp III</text>
+  <text class="desc" x="590" y="221">Cloud deployment &amp; CI/CD for ML</text>
+  <path class="leader" d="M267,147 H580"/>
+  <text class="name" x="590" y="149">Camp IV</text>
+  <text class="desc" x="590" y="165">LLM observability &amp; tracing</text>
+  <path class="leader" d="M314,59 H580"/>
+  <text class="name gold" x="590" y="61">Summit</text>
+  <text class="desc" x="590" y="77">Production agent platforms</text>
+</svg>
